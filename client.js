@@ -10,6 +10,9 @@ const connect = function () {
   })
   conn.on('connect', () => {
     conn.write('Name: JS');
+    setInterval(() => {
+      
+    }, 50)
   })
 
   // interpret incoming data as text
