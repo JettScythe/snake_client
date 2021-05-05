@@ -29,6 +29,26 @@ const handleUserInput = function(key) {
     case '\u0064':
       connection.write('Move: right');
       break;
+
+    case '\u0031':
+      connection.write('Say: waddup');
+      break;
+
+    case '\u0032':
+      connection.write('Say: howdy');
+      break;
+    
+    case '\u0033':
+      connection.write('Say: Music Suggestions?');
+      break;
+
+    case '\u0034':
+      connection.write('Say: Movie Suggestions?');
+      break;
+
+    case '\u0035':
+      connection.write('Say: imma getcha');
+      break;
   };
 };
 
